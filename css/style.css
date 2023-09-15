@@ -29,6 +29,10 @@ a {
 figure > img {
     display: block;
 }
+
+*[class^='col-'] {
+    padding: 20px;
+}
 /* palette colori */
 
 :root {
@@ -128,6 +132,10 @@ figure > img {
 }
 
 /* HERO */
+.hero {
+    padding: 60px 0px;
+}
+
 .hero .col-4 {
     text-align: center;
 }
@@ -178,6 +186,11 @@ figure > img {
     width: 250px;
 }
 
+/* STRATEGIC-PLANNER */
+.strategic-planner {
+    background-color: #9792E4;
+    padding: 40px 0px;
+}
 /* Responsive */
 /* TABLET */
 @media (max-width: 770px) {
@@ -255,5 +268,21 @@ figure > img {
     padding: 10px;
 }
 
+.planning-title {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
 
+}
+
+.planning-paragraph {
+    color: white;
+    font-size: 12px;
+}
+
+
+
+/* .planning-img {
+    width: 410px;
+} */
 
