@@ -117,11 +117,37 @@ figure > img {
 /* MOBILE */
 @media (min-width: 580px) {
 
+    .container {
+        width: 100%;
+    }
+
+    /* .navbar-list {
+        display: none;
+    }
+
+    .icon-menu {
+        display: block;
+    } */
+
+
+
+
 }
 
 /* TABLET */
 @media (min-width: 770px) {
+    
+    .container {
+        width: 100%;
+    }
 
+    .navbar-list {
+        display: none;
+    }
+
+    .icon-menu {
+        display: block;
+    }
 }
 
 /* debug */
@@ -137,6 +163,7 @@ figure > img {
     border: 1px solid var(--purple);
     padding: 10px;
 }
+
 .debug [class^="col"] {
     border: 1px solid orange;
     padding: 10px;
