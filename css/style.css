@@ -25,6 +25,10 @@ a {
     display: inline-block;
 }
 
+i {
+    font-size: 70px;
+}
+
 figure > img {
     display: block;
 }
@@ -101,6 +105,7 @@ figure > img {
 .page-header {
     background-color: var(--blue);
     color: white;
+    padding: 40px;
 }
 
 .icon-menu {
@@ -111,31 +116,66 @@ figure > img {
     display: flex;
     gap: 22px;
     align-items: center;
+    padding: 10px;
+}
+
+.card-hero {
+    background-color: var(--light-blue);
+    height: 100%; 
+    border-radius: 20px;
+}
+
+/* HERO */
+.hero .col-4 {
+    text-align: center;
+}
+
+*[class^='col-'] {
+    padding: 20px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.title-card {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--blue) ;
+}
+
+.button-blue {
+    margin-top: 20px;
+    background-color: var(--blue);
+    color: white;
+}
+
+.apple {
+    font-size: 22px;
+}
+
+.paragraph-card {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.icon-card {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.img-card {
+    width: 250px;
 }
 
 /* Responsive */
-/* MOBILE */
-@media (min-width: 580px) {
-
-    .container {
-        width: 100%;
-    }
-
-    /* .navbar-list {
-        display: none;
-    }
-
-    .icon-menu {
-        display: block;
-    } */
-
-
-
-
-}
-
 /* TABLET */
-@media (min-width: 770px) {
+@media (max-width: 770px) {
     
     .container {
         width: 100%;
@@ -148,7 +188,27 @@ figure > img {
     .icon-menu {
         display: block;
     }
+    
 }
+
+/* MOBILE */
+@media (max-width: 580px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .navbar-list {
+        display: none;
+    }
+
+    .icon-menu {
+        display: block;
+    }
+
+
+}
+
 
 /* debug */
 
@@ -159,6 +219,7 @@ figure > img {
     padding: 10px;
 }
 
+
 .debug .row {
     border: 1px solid var(--purple);
     padding: 10px;
@@ -168,7 +229,6 @@ figure > img {
     border: 1px solid orange;
     padding: 10px;
 }
-
 
 
 
