@@ -195,6 +195,53 @@ figure > img {
     background-color: #9792E4;
     padding: 40px 0px;
 }
+
+.planning-title {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+.planning-paragraph {
+    color: white;
+    font-size: 12px;
+}
+
+
+.card-developement {
+    background-color: var(--light);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.img-developement {
+    width: 215px;
+}
+.card-title-developement 
+.card-paragraph-developement 
+.arrow-down {
+    text-align: center;
+}
+.card-title-developement {
+    padding: 15px;
+}
+
+.card-paragraph-developement {
+    padding: 15px;
+    font-size: 14px;
+}
+
+.arrow-down {
+    background-color: #9792E4;
+    border-radius: 50%;
+    padding: 14px;
+}
+
+.row-planner {
+    align-items: end;
+    justify-content: center;
+}
 /* Responsive */
 /* TABLET */
 @media (max-width: 770px) {
@@ -202,7 +249,7 @@ figure > img {
     .container {
         width: 100%;
     }
-
+    /* HEADER */
     .navbar-list {
         display: none;
     }
@@ -211,10 +258,26 @@ figure > img {
         display: block;
     }
 
+    /* HERO */
     .row-card-hero-tablet {
         flex-direction: column;
         
     }
+
+    /* STRATEGIC-PLANNER */
+    /* .strategic-planner[class^='col-'] {
+        width: 100%;
+    } */
+
+    .strategic-planner .col-6 {
+        width: 100%;
+    }
+
+    .img-developement {
+        padding: 0px 10px;
+    }
+
+
     
 }
 
@@ -248,7 +311,16 @@ figure > img {
         text-align: center;
     }
 
+    
 
+    /* STRATEGIC-PLANNER */
+    /* .strategic-planner[class^='col-'] {
+        width: 100%;
+    } */
+
+    .strategic-planner .col-6 {
+        width: 100%;
+    }
 }
 
 
@@ -272,52 +344,7 @@ figure > img {
     padding: 10px;
 }
 
-.planning-title {
-    color: white;
-    padding-top: 50px;
-    padding-bottom: 30px;
 
-}
-
-.planning-paragraph {
-    color: white;
-    font-size: 12px;
-}
-
-.developement-section {
-    
-}
-
-.card-developement {
-    background-color: var(--light);
-    border-radius: 20px;
-    padding: 10px;
-}
-
-.card-title-developement 
-.card-paragraph-developement 
-.arrow-down {
-    text-align: center;
-}
-.card-title-developement {
-    padding: 15px;
-}
-
-.card-paragraph-developement {
-    padding: 15px;
-    font-size: 14px;
-}
-
-.arrow-down {
-    background-color: #9792E4;
-    border-radius: 50%;
-    padding: 14px;
-}
-
-.row-planner {
-    align-items: end;
-    justify-content: center;
-}
 /* .planning-img {
     width: 410px;
 } */
