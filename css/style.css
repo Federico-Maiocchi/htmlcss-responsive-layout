@@ -24,6 +24,10 @@ a {
     color: currentColor;
     display: inline-block;
 }
+
+figure > img {
+    display: block;
+}
 /* palette colori */
 
 :root {
@@ -78,12 +82,12 @@ a {
 .justify-between {
     justify-content: space-between;
 }
+
 .align-items-center {
     align-items: center;
 }
 
 /* component classes */
-
 .button {
     color: black;
     line-height: 40px;
@@ -99,10 +103,25 @@ a {
     color: white;
 }
 
+.icon-menu {
+    display: none;
+}
+
 .navbar-list {
     display: flex;
     gap: 22px;
     align-items: center;
+}
+
+/* Responsive */
+/* MOBILE */
+@media (min-width: 580px) {
+
+}
+
+/* TABLET */
+@media (min-width: 770px) {
+
 }
 
 /* debug */
