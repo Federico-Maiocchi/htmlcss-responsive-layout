@@ -88,12 +88,16 @@ figure > img {
     justify-content: space-between;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .align-items-center {
     align-items: center;
 }
 
-.justify-center {
-    justify-content: center;
+.align-items-end {
+    align-items: end;
 }
 
 /* component classes */
@@ -280,8 +284,40 @@ figure > img {
     font-size: 12px;
 }
 
+.developement-section {
+    
+}
 
+.card-developement {
+    background-color: var(--light);
+    border-radius: 20px;
+    padding: 10px;
+}
 
+.card-title-developement 
+.card-paragraph-developement 
+.arrow-down {
+    text-align: center;
+}
+.card-title-developement {
+    padding: 15px;
+}
+
+.card-paragraph-developement {
+    padding: 15px;
+    font-size: 14px;
+}
+
+.arrow-down {
+    background-color: #9792E4;
+    border-radius: 50%;
+    padding: 14px;
+}
+
+.row-planner {
+    align-items: end;
+    justify-content: center;
+}
 /* .planning-img {
     width: 410px;
 } */
