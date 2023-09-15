@@ -25,9 +25,6 @@ a {
     display: inline-block;
 }
 
-i {
-    font-size: 70px;
-}
 
 figure > img {
     display: block;
@@ -91,6 +88,10 @@ figure > img {
     align-items: center;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 /* component classes */
 .button {
     color: black;
@@ -110,6 +111,7 @@ figure > img {
 
 .icon-menu {
     display: none;
+    font-size: 30px;
 }
 
 .navbar-list {
@@ -139,6 +141,7 @@ figure > img {
 }
 
 .title-card {
+    font-size: 20px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -156,6 +159,7 @@ figure > img {
 }
 
 .paragraph-card {
+    font-size: 15px;
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
@@ -164,9 +168,10 @@ figure > img {
 }
 
 .icon-card {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 70px;
 }
 
 .img-card {
@@ -188,6 +193,11 @@ figure > img {
     .icon-menu {
         display: block;
     }
+
+    .row-card-hero-tablet {
+        flex-direction: column;
+        
+    }
     
 }
 
@@ -198,12 +208,27 @@ figure > img {
         width: 100%;
     }
 
+    /* HEADER  */
     .navbar-list {
         display: none;
     }
 
     .icon-menu {
         display: block;
+    }
+    
+    /* HERO */
+    .hero .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero[class^='col-'] {
+        width: 100%
+    }
+
+    .hero .col-8 {
+        text-align: center;
     }
 
 
