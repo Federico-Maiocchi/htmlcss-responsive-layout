@@ -480,12 +480,11 @@ figure > img {
     }
 
     .card-benefits {
-        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
-
-
 /* debug */
 
 .debug .container,
@@ -506,53 +505,7 @@ figure > img {
     padding: 10px;
 }
 
-
-
 /* .planning-img {
     width: 410px;
 } */
 
-.benefits {
-    background-color: #9792E4;
-    padding: 60px 0px;
-}
-
-.title-benefits {
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 35px;
-    padding: 20px 0px;
-    text-align: center;
-}
-
-.card-benefits {
-    background-color: var(--light);
-    height: 100%; 
-    border-radius: 20px;
-}
-
-.number-card-benefits {
-    color: var(--purple);
-    font-size: 70px;
-    padding: 45px 0px 0px 40px ;
-}
-
-.title-card-benefits {
-    color: var(--purple);
-    font-size: 25px;
-    font-weight: 900;
-    padding: 20px 0px 0px 40px;
-}
-
-.paragraph-card-benefits {
-    font-size: 14px;
-    line-height: 20px;
-    padding: 20px 20px 20px 40px;
-}
-
-.button-purple {
-    background-color: var(--purple);
-    color: white;
-    margin: 0px 0px 30px 40px;
-    padding: 0px 30px;
-}
