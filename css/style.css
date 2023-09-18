@@ -674,14 +674,27 @@ figure > img {
     padding: 10px;
 }
 
-/* free */
+.end-page {
+    background-color: #333333;
+    padding: 40px 0px;
+}
 
 
+.top-footer, .bottom-footer {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
 
+.top-footer {
+    margin-bottom: 80px;
+    padding: 0px 215px;
+}
 
-
-
-
+.a-footer {
+    text-decoration: underline;
+    color: #9792E4;
+}
 
 
 
