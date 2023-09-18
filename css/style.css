@@ -544,6 +544,11 @@ figure > img {
     font-size: 15px;
 }
 
+.row-card-biography {
+    display: flex;
+    flex-direction: column;
+}
+
 .img-biography {
     width: 180px;
     height: 180px;
@@ -551,3 +556,8 @@ figure > img {
     object-fit: cover;
 }
 
+.title-card-biography {
+    font-size: 20px;
+    padding-right: 100px;
+    margin-bottom: 10px;
+}
