@@ -609,3 +609,48 @@ figure > img {
     background-color: var(--purple);
 }
 
+.row-started {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.get-started .col-12 {
+    text-align: center;
+}
+
+.header-started {
+    opacity: 0.7;
+    font-size: 18px;
+}
+
+.title-started {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.important-started {
+    font-size: 90px;
+    color: #FDC15F;
+}
+
+.paragraph-started {
+    font-size: 14px;
+    color: white;
+}
+
+.button-started {
+    color: #9792E4;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.a-underline {
+    text-decoration: underline;
+}
+
+
+
+
+
+
