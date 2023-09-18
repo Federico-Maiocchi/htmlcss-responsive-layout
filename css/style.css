@@ -357,6 +357,62 @@ figure > img {
     padding: 40px 0px 40px 0px;
 }
 
+.title-biography {
+    color: #9792E4;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.description-biography-top {
+    margin-bottom: 40px;
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.description-biography-bottom {
+    margin-bottom: 60px;
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.row-card-biography {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-biography {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-biography {
+    height: 100%;
+}
+
+.title-card-biography {
+    color: var(--purple);
+    font-size: 20px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+}
+
+.button-card-biography {
+    background-color: #9792E4;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding: 0px 20px;
+    line-height: 30px;
+    align-self: self-start;
+    font-weight: 700;
+}
+
+.linkedin {
+    font-size: 20px;
+}
+
 /* Responsive */
 /* TABLET */
 @media (max-width: 770px) {
@@ -432,6 +488,17 @@ figure > img {
     .benefits .col-4 {
         flex-basis: 50%;
     }
+
+    /* ABOUT US */
+    
+    .company-biography .col-8 {
+        flex-basis: 50%;
+    }
+
+    .company-biography .col-4 {
+        flex-basis: 50%;
+    }
+
     
 }
 
@@ -502,6 +569,19 @@ figure > img {
         flex-wrap: wrap;
     }
 
+    /* ABOUT US */
+    
+    .company-biography .col-8 {
+        flex-basis: 100%;
+        padding-bottom: 0px;
+    }
+
+    .company-biography .col-4 {
+        flex-basis: 100%;
+        padding-top: 0px;
+    }
+
+
 }
 
 /* debug */
@@ -525,39 +605,3 @@ figure > img {
 
 /* about us */
 
-.title-biography {
-    color: #9792E4;
-    font-weight: 700;
-    font-size: 35px;
-    margin-bottom: 40px;
-}
-
-.description-biography-top {
-    margin-bottom: 40px;
-    line-height: 35px;
-    font-size: 15px;
-}
-
-.description-biography-bottom {
-    margin-bottom: 60px;
-    line-height: 35px;
-    font-size: 15px;
-}
-
-.row-card-biography {
-    display: flex;
-    flex-direction: column;
-}
-
-.img-biography {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.title-card-biography {
-    font-size: 20px;
-    padding-right: 100px;
-    margin-bottom: 10px;
-}
