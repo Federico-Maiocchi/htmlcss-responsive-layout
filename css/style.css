@@ -298,6 +298,14 @@ figure > img {
     padding: 20px 0px 20px 10px;
 }
 
+.q-left {
+    font-size: 35px;
+}
+
+.q-right {
+    font-size: 35px;
+}
+
 .name-testimonial {
     color: white;
     font-size: 20px;
@@ -388,6 +396,16 @@ figure > img {
     object-fit: cover;
 }
 
+.figure-relative {
+    position: relative;
+}
+
+.about-q-left {
+    position: absolute;
+    margin: -192px 0px 2px 137px;
+    font-size: 70px;
+}
+
 .card-biography {
     height: 100%;
 }
@@ -416,7 +434,7 @@ figure > img {
 /* GET STARTED */
 .get-started {
     background-color: var(--purple);
-    padding: 50px 0px;
+    padding: 30px 0px;
 }
 
 .row-started {
