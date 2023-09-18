@@ -603,5 +603,9 @@ figure > img {
     padding: 10px;
 }
 
-/* about us */
+/* free */
+
+.get-started {
+    background-color: var(--purple);
+}
 
