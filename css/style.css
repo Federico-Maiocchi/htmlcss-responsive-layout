@@ -231,25 +231,23 @@ figure > img {
     width: 215px;
 }
 
-.card-title-developement 
-.card-paragraph-developement 
-.arrow-down {
-    text-align: center;
-}
 
 .card-title-developement {
     padding: 15px;
+    text-align: center;
 }
 
 .card-paragraph-developement {
     padding: 15px;
     font-size: 14px;
+    text-align: center;
 }
 
 .arrow-down {
     background-color: #9792E4;
     border-radius: 50%;
     padding: 14px;
+    text-align: center;
 }
 
 .row-planner {
@@ -258,6 +256,10 @@ figure > img {
 }
 
 /* TESTIMONIAL */
+.tesimonials {
+    padding: 20px 0px 40px 0px;
+}
+
 .main-testimonial {
     text-align: center;
     padding: 25px 0px;
@@ -332,7 +334,7 @@ figure > img {
 
 .title-card-benefits {
     color: var(--purple);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 900;
     padding: 20px 0px 0px 40px;
 }
@@ -348,6 +350,11 @@ figure > img {
     color: white;
     margin: 0px 0px 30px 40px;
     padding: 0px 30px;
+}
+
+/* ABOUT US */
+.company-biography {
+    padding: 40px 0px 40px 0px;
 }
 
 /* Responsive */
@@ -373,9 +380,17 @@ figure > img {
         
     }
 
+    .row .justify-center {
+        justify-content: flex-start;
+    }
+
     /* STRATEGIC-PLANNER */
 
     .strategic-planner .col-6 {
+        flex-basis: 100%;
+    }
+
+    .strategic-planner .col-4 {
         flex-basis: 100%;
     }
     
@@ -393,18 +408,18 @@ figure > img {
     }
 
     .planning-paragraph {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 15px;
+        line-height: 25px;
     }
 
     .card-title-developement {
         text-align: center;
-        font-size: 40px;
+        font-size: 25px;
     }
 
     .card-paragraph-developement {
         text-align: center;
-        font-size: 20px;
+        font-size: 15px;
     }
 
 
@@ -414,7 +429,6 @@ figure > img {
     }
 
     /* BENEFITS */
-
     .benefits .col-4 {
         flex-basis: 50%;
     }
@@ -456,11 +470,15 @@ figure > img {
         flex-basis: 100%;
     }
 
+    .strategic-planner .col-4 {
+        flex-basis: 100%;
+    }    
+
     /* TESTIMONIALS */
     .testimonial .col-12 {
         flex-basis: 100%;
     }
-
+    
     .cards-testimonials .row {
         justify-content: center;
     }
@@ -486,7 +504,6 @@ figure > img {
 
 }
 
-
 /* debug */
 .debug .container,
 .debug .container-medium,
@@ -505,3 +522,32 @@ figure > img {
     border: 1px solid orange;
     padding: 10px;
 }
+
+/* about us */
+
+.title-biography {
+    color: #9792E4;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.description-biography-top {
+    margin-bottom: 40px;
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.description-biography-bottom {
+    margin-bottom: 60px;
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.img-biography {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
