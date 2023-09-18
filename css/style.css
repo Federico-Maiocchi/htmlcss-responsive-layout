@@ -221,6 +221,12 @@ figure > img {
 }
 
 /* card developement */
+.row-card-developement {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
 .card-developement {
     background-color: var(--light);
     border-radius: 20px;
@@ -231,23 +237,19 @@ figure > img {
     width: 215px;
 }
 
-
 .card-title-developement {
     padding: 15px;
-    text-align: center;
 }
 
 .card-paragraph-developement {
     padding: 15px;
     font-size: 14px;
-    text-align: center;
 }
 
 .arrow-down {
     background-color: #9792E4;
     border-radius: 50%;
-    padding: 14px;
-    text-align: center;
+    padding: 5px 10px;
 }
 
 .row-planner {
@@ -298,6 +300,10 @@ figure > img {
     padding: 20px 0px 20px 10px;
 }
 
+q {
+    quotes: none;
+}
+
 .q-left {
     font-size: 35px;
 }
@@ -336,7 +342,7 @@ figure > img {
 
 .number-card-benefits {
     color: var(--purple);
-    font-size: 70px;
+    font-size: 55px;
     padding: 45px 0px 0px 40px ;
 }
 
@@ -368,7 +374,7 @@ figure > img {
 .title-biography {
     color: #9792E4;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 70px;
     margin-bottom: 40px;
 }
 
@@ -481,6 +487,30 @@ figure > img {
 .a-underline {
     text-decoration: underline;
 }
+
+/* END PAGE */
+.end-page {
+    background-color: #333333;
+    padding: 40px 0px;
+}
+
+.top-footer, .bottom-footer {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.top-footer {
+    margin-bottom: 80px;
+}
+
+.a-footer {
+    text-decoration: underline;
+    color: #9792E4;
+}
+
 /* Responsive */
 /* TABLET */
 @media (max-width: 770px) {
@@ -663,7 +693,6 @@ figure > img {
     padding: 10px;
 }
 
-
 .debug .row {
     border: 1px solid var(--purple);
     padding: 10px;
@@ -673,28 +702,3 @@ figure > img {
     border: 1px solid orange;
     padding: 10px;
 }
-
-.end-page {
-    background-color: #333333;
-    padding: 40px 0px;
-}
-
-
-.top-footer, .bottom-footer {
-    text-align: center;
-    color: white;
-    font-size: 12px;
-}
-
-.top-footer {
-    margin-bottom: 80px;
-    padding: 0px 215px;
-}
-
-.a-footer {
-    text-decoration: underline;
-    color: #9792E4;
-}
-
-
-
